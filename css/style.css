@@ -71,6 +71,18 @@ body {
     margin-bottom: 1rem;
   }
   
+  .contens {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1s, transform 2s;
+  
+}
+
+  .contens.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
   @media (max-width: 767px) {
     .header {
       padding: 20px 10px;
