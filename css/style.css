@@ -9,10 +9,10 @@ body {
   }
   
   .bg-header {
-    background: url('../img/a.png') center;
+    background: url('../img/a.png') no-repeat center center;
     background-size: cover;
     background-color: #f7b501;
-    height: 100vh; /* Adjusted for responsive height */
+
   }
   
   .bg-about {
@@ -88,13 +88,30 @@ body {
       padding: 20px 10px;
       text-align: center;
     }
+
+    .bg-header {
+      background: url('../img/Headline.png') center;
+      background-size: cover;
+      background-color: #f7b501;
+  
+    }
+
+    .bg-social-media {
+      background: url('../img/Tokenomic.png') no-repeat center center;
+      background-size: cover;
+    }
+    
+    .bg-tokenomics {
+      background: url('../img/Tokenomic.png') no-repeat center center;
+      background-size: cover;
+    }
     
     .vh-100 {
       height: auto;
     }
 
     .vh-300 {
-        height: 190vh;
+        height: 200vh;
       }
     /* roadmap */
     
