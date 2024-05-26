@@ -1,0 +1,2 @@
+# smokingcat
+Meme Coin
