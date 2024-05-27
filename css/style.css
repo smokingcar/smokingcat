@@ -9,7 +9,7 @@ body {
   }
   
   .bg-header {
-    background: url('../img/a.png') no-repeat center center;
+    background: url('../img/b.png') no-repeat center center;
     background-size: cover;
     background-color: #f7b501;
 
@@ -90,7 +90,7 @@ body {
     }
 
     .bg-header {
-      background: url('../img/Headline.png') center;
+      background: url('../img/Headline_EDIT.png') center;
       background-size: cover;
       background-color: #f7b501;
   
